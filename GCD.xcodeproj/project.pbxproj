@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		2E884D471EBC1FDC00DE0E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D461EBC1FDC00DE0E14 /* main.m */; };
 		2E884D4A1EBC1FDC00DE0E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D491EBC1FDC00DE0E14 /* AppDelegate.m */; };
-		2E884D4D1EBC1FDC00DE0E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D4C1EBC1FDC00DE0E14 /* ViewController.m */; };
-		2E884D501EBC1FDC00DE0E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E884D4E1EBC1FDC00DE0E14 /* Main.storyboard */; };
 		2E884D521EBC1FDC00DE0E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E884D511EBC1FDC00DE0E14 /* Assets.xcassets */; };
 		2E884D551EBC1FDC00DE0E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E884D531EBC1FDC00DE0E14 /* LaunchScreen.storyboard */; };
 		2E884D601EBC1FDD00DE0E14 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D5F1EBC1FDD00DE0E14 /* GCDTests.m */; };
 		2E884D6B1EBC1FDD00DE0E14 /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D6A1EBC1FDD00DE0E14 /* GCDUITests.m */; };
+		2E884D7C1EBC262900DE0E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E884D7B1EBC262900DE0E14 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,6 @@
 		2E884D461EBC1FDC00DE0E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E884D481EBC1FDC00DE0E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E884D491EBC1FDC00DE0E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E884D4B1EBC1FDC00DE0E14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E884D4C1EBC1FDC00DE0E14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E884D4F1EBC1FDC00DE0E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E884D511EBC1FDC00DE0E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E884D541EBC1FDC00DE0E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E884D561EBC1FDC00DE0E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,9 @@
 		2E884D661EBC1FDD00DE0E14 /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E884D6A1EBC1FDD00DE0E14 /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		2E884D6C1EBC1FDD00DE0E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E884D791EBC202D00DE0E14 /* GCD笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCD笔记.h"; sourceTree = "<group>"; };
+		2E884D7A1EBC262900DE0E14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E884D7B1EBC262900DE0E14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +100,11 @@
 		2E884D441EBC1FDC00DE0E14 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				2E884D781EBC201400DE0E14 /* Other */,
 				2E884D481EBC1FDC00DE0E14 /* AppDelegate.h */,
 				2E884D491EBC1FDC00DE0E14 /* AppDelegate.m */,
-				2E884D4B1EBC1FDC00DE0E14 /* ViewController.h */,
-				2E884D4C1EBC1FDC00DE0E14 /* ViewController.m */,
-				2E884D4E1EBC1FDC00DE0E14 /* Main.storyboard */,
+				2E884D7A1EBC262900DE0E14 /* ViewController.h */,
+				2E884D7B1EBC262900DE0E14 /* ViewController.m */,
 				2E884D511EBC1FDC00DE0E14 /* Assets.xcassets */,
 				2E884D531EBC1FDC00DE0E14 /* LaunchScreen.storyboard */,
 				2E884D561EBC1FDC00DE0E14 /* Info.plist */,
@@ -138,6 +137,14 @@
 				2E884D6C1EBC1FDD00DE0E14 /* Info.plist */,
 			);
 			path = GCDUITests;
+			sourceTree = "<group>";
+		};
+		2E884D781EBC201400DE0E14 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E884D791EBC202D00DE0E14 /* GCD笔记.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +255,6 @@
 			files = (
 				2E884D551EBC1FDC00DE0E14 /* LaunchScreen.storyboard in Resources */,
 				2E884D521EBC1FDC00DE0E14 /* Assets.xcassets in Resources */,
-				2E884D501EBC1FDC00DE0E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E884D4D1EBC1FDC00DE0E14 /* ViewController.m in Sources */,
+				2E884D7C1EBC262900DE0E14 /* ViewController.m in Sources */,
 				2E884D4A1EBC1FDC00DE0E14 /* AppDelegate.m in Sources */,
 				2E884D471EBC1FDC00DE0E14 /* main.m in Sources */,
 			);
@@ -311,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E884D4E1EBC1FDC00DE0E14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E884D4F1EBC1FDC00DE0E14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E884D531EBC1FDC00DE0E14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -423,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GCD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GCD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
